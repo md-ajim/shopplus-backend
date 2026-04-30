@@ -298,7 +298,7 @@ ALLOWED_HOSTS = ['*']
 
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://shopplus-frontend.vercel.app"
+    "https://shopplus-frontend.vercel.app",
     "http://44.205.23.77",
     "http://ec2-44-205-23-77.compute-1.amazonaws.com",
     # "http://localhost", 
@@ -310,7 +310,7 @@ CSRF_TRUSTED_ORIGINS = [
 
 
 CORS_ALLOWED_ORIGINS = [
-    "https://shopplus-frontend.vercel.app"
+    "https://shopplus-frontend.vercel.app",
     "http://44.205.23.77",
     "http://ec2-44-205-23-77.compute-1.amazonaws.com",
     # 'http://localhost', 
